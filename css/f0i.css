@@ -1,0 +1,45 @@
+
+a:active, a:focus {
+  outline: 0
+}
+
+body {
+  background-color: silver;
+}
+
+#main {
+  background-color: ghostwhite;
+  margin: 0 auto;
+  max-width: 650px;
+  min-width: 450px;
+  padding: 15px 35px;
+  border-radius: 10px;
+}
+
+#header {
+  border-bottom: solid 1px darkgray;
+}
+
+#header h1, #header img {
+  vertical-align: middle;
+  height: 65px;
+  margin-right: 10px;
+}
+
+#menu {
+  width: 100%;
+  border-bottom: solid 1px darkgray;
+  padding-bottom: 10px;
+}
+
+#content {
+  min-height: 320px;
+  padding: 15px 0px;
+}
+
+#footer {
+  border-top: solid 1px darkgray;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 65%;
+}

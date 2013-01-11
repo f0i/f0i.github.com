@@ -1,0 +1,7 @@
+#menu ul > li {
+  width: 100%;
+}
+
+#menu ul ul > li {
+  margin-left: 10px;
+}

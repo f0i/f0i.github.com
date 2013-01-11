@@ -1,0 +1,56 @@
+#menu ul, #menu ul ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#menu ul {
+ margin: 15px auto auto;
+  display: table;
+}
+
+
+#menu ul > li {
+  float: left;
+}
+
+#menu ul ul > li {
+  float: none;
+}
+
+#menu ul li a:hover {
+  background: orange;
+}
+
+#menu ul li a {
+  display: block;
+  padding: 15px 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+  background: darkgray;
+  border-radius: 3px;
+}
+
+#menu ul .selected a{
+  background: lightblue;
+}
+
+#menu ul ul {
+  position: absolute;
+  display: none;
+  z-index: 999;
+  margin: 0px auto auto;
+}
+
+#menu ul ul li a {
+  background: lightgray;
+}
+
+#menu ul li:hover ul {
+  display: block;
+}
+
+#menu ul div {
+  float: auto;
+}
